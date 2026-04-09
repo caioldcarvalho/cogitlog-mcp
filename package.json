@@ -1,0 +1,32 @@
+{
+  "name": "cogitlog-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for cogitlog — semantic session memory for AI agents",
+  "main": "src/index.js",
+  "bin": {
+    "cogitlog-mcp": "src/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "cogitlog",
+    "ai-agents",
+    "session-memory"
+  ],
+  "author": "Caio Carvalho",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caioldcarvalho/cogitlog-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.3.6"
+  },
+"engines": {
+    "node": ">=18"
+  }
+}
